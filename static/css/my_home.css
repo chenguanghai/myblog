@@ -1,0 +1,130 @@
+body{
+    background-color: wheat;
+    font-family: "microsoft yahei";
+}
+.my_hr{
+    border: 1px dashed gray;
+}
+#nav{
+    background-color: black;
+    opacity: 0.7;
+}  
+
+/*-- to-top --*/
+#toTop {
+	display: none;
+	text-decoration: none;
+	position: fixed;
+	bottom: 52px;
+	right: 1%;
+	overflow: hidden;
+	z-index: 999; 
+	width: 32px;
+	height: 32px;
+	border: none;
+	text-indent: 100%;
+	background: url("../images/arr.png") no-repeat 0px 0px;
+}
+#toTopHover {
+	width: 32px;
+	height: 32px;
+	display: block;
+	overflow: hidden;
+	float: right;
+	opacity: 0;
+	-moz-opacity: 0;
+	filter: alpha(opacity=0);
+}
+
+/*-- //to-top --*/
+
+footer{
+    background-color: black;
+    opacity: 0.7;
+}
+.my_img{
+    margin-top: 10px;
+}
+#avatar{
+    background-image:url('../images/1.png');
+    width:140px;
+}
+.label {
+    cursor: pointer;
+  }
+
+  .progress {
+    display: none;
+    margin-bottom: 1rem;
+  }
+
+  .alert {
+    display: none;
+  }
+
+  .img-container img {
+    max-width: 100%;
+  }
+  .toolbar{
+      position: fixed;
+      left: 10px;
+      top: 200px;
+      z-index: 9999;
+  }
+  .toolbar ul{
+      list-style: none;
+      margin: 0;
+      padding: 0;
+  }
+  .toolbar ul li{
+    opacity: 0.3;
+  }
+p{
+      margin: 0;
+      height: 30px;
+      line-height: 30px;
+  }
+  .give_p{
+      line-height: 60px;
+      height: 60px;
+  }
+  #give{
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      border: 1px solid black;
+      border-radius: 50%;
+      line-height: 50px;
+      font-size: 20px;
+      font-weight: bold;
+      background-color: seagreen;
+  }
+  .home_content h1{
+      margin-top: 50px;
+  }
+  .search_bar{
+      text-indent: 8em;
+      height: 50px;
+      line-height: 50px;
+  }
+  .search_bar input{
+      border: none;
+  }
+  .search_bar button{
+      margin-top: -4px;
+  }
+  .home_content .left{
+      margin-top: 100px;
+      width: 20%;
+      float: left;
+      font-size: 20px;
+  }
+  .home_content .right{
+    margin-top: 100px;
+    float: left;
+    width: 80%;
+    font-size: 20px;
+}
+.page_nav{
+    margin-left: 200px;
+}
